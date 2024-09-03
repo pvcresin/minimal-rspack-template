@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+console.log('test');
+
+document.body.innerHTML = '<h1>hello</h1>';
